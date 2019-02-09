@@ -98,6 +98,7 @@ get_header();
 						?>
 
 							<article class="col-lg-4 col-sm-12 article-content news-bottom">
+                                <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 
 								<?php
 									if (has_post_thumbnail()):

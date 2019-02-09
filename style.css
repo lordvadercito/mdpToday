@@ -80,6 +80,7 @@ p{
 .font-style-icon{
 	font-style: italic;
 	font-weight: lighter;
+	font-family: 'Nunito';
 	color: #FFFFFF;
 	position: absolute;
 	top: 10px;
@@ -900,6 +901,11 @@ footer .icon-type{
 		text-align: center;
 		right: 0 !important; 
 		bottom: 0 !important;
+	}
+
+	.author-icon{
+		width: 35px !important;
+		height: auto !important;
 	}
 
 	.nav-item{

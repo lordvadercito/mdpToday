@@ -54,7 +54,7 @@ function get_cat_icon($las_categorias)
 
 //Change author icon
 function get_author_icon($author){
-    echo "&nbsp;<img class='author-icon' src='http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/author/".$author.".png'>";
+    echo "<img class='author-icon' src='http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/author/".$author.".png'>&nbsp;";
 }
 
 

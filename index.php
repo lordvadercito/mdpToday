@@ -74,7 +74,7 @@
 					<?php query_posts('category_name=outstanding-news-lg&posts_per_page=1' ); {
 						 while(have_posts()) : the_post(); ?>
 							<div class="row entry-important-content">
-                                <p class="font-style-icon"><?php  get_author_icon(the_author());?></p>
+                                <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 								<div class="entry-important-wrapper">
 
 									<h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
@@ -96,6 +96,7 @@
 							<?php query_posts('category_name=outstanding-news-2&posts_per_page=1' ); {
 								 while(have_posts()) : the_post(); ?>
 										<div class="row entry-secondary-content">
+                                            <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 											<div class="entry-important-wrapper">
 												<h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 													
@@ -115,6 +116,7 @@
 							<?php query_posts('category_name=outstanding-news-3&posts_per_page=1' ); {
 								 while(have_posts()) : the_post(); ?>
 										<div class="row entry-secondary-content">
+                                            <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 											<div class="entry-important-wrapper">
 												<h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 													
@@ -134,6 +136,7 @@
 							<?php query_posts('category_name=outstanding-news-4&posts_per_page=1' ); {
 								 while(have_posts()) : the_post(); ?>
 										<div class="row entry-secondary-content">
+                                            <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 											<div class="entry-important-wrapper">
 												<h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 													
@@ -178,6 +181,7 @@
                 <?php query_posts('category_name=news-big-size&posts_per_page=1' ); {
                     while(have_posts()) : the_post(); ?>
                         <div class="row entry-important-content">
+                            <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
                             <div class="entry-important-wrapper">
                                 <h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
                                 <div class="d-none d-md-block"><?php the_excerpt(); ?></div>
@@ -198,6 +202,7 @@
                     <?php query_posts('category_name=news-small-size_1&posts_per_page=1' ); {
                         while(have_posts()) : the_post(); ?>
                             <div class="row entry-secondary-content">
+                                <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
                                 <div class="entry-important-wrapper">
                                     <h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 
@@ -217,6 +222,7 @@
                     <?php query_posts('category_name=news-small-size_2&posts_per_page=1' ); {
                         while(have_posts()) : the_post(); ?>
                             <div class="row entry-secondary-content">
+                                <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
                                 <div class="entry-important-wrapper">
                                     <h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 
@@ -236,6 +242,7 @@
                     <?php query_posts('category_name=news-small-size_3&posts_per_page=1' ); {
                         while(have_posts()) : the_post(); ?>
                             <div class="row entry-secondary-content">
+                                <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
                                 <div class="entry-important-wrapper">
                                     <h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 
@@ -284,6 +291,7 @@
 					<?php query_posts('category_name=sports-big-size&posts_per_page=1' ); {
 						 while(have_posts()) : the_post(); ?>
 							<div class="row entry-important-content">
+                                <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 								<div class="entry-important-wrapper">
 									<h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 									<div class="d-none d-md-block"><?php the_excerpt(); ?></div>
@@ -304,6 +312,7 @@
 							<?php query_posts('category_name=sports-small-size_1&posts_per_page=1' ); {
 								 while(have_posts()) : the_post(); ?>
 										<div class="row entry-secondary-content">
+                                            <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 											<div class="entry-important-wrapper">
 												<h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 													
@@ -323,6 +332,7 @@
 							<?php query_posts('category_name=sports-small-size_2&posts_per_page=1' ); {
 								 while(have_posts()) : the_post(); ?>
 										<div class="row entry-secondary-content">
+                                            <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 											<div class="entry-important-wrapper">
 												<h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 													
@@ -342,6 +352,7 @@
 							<?php query_posts('category_name=sports-small-size_3&posts_per_page=1' ); {
 								 while(have_posts()) : the_post(); ?>
 										<div class="row entry-secondary-content">
+                                            <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 											<div class="entry-important-wrapper">
 												<h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 													
@@ -380,6 +391,7 @@
 					<?php query_posts('category_name=tecnology-big-size&posts_per_page=1' ); {
 						 while(have_posts()) : the_post(); ?>
 							<div class="row entry-important-content">
+                                <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 								<div class="entry-important-wrapper">
 									<h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 									<div class="d-none d-md-block"><?php the_excerpt(); ?></div>
@@ -400,6 +412,7 @@
 					<?php query_posts('category_name=tecnology-small-size_1&posts_per_page=1' ); {
 						 while(have_posts()) : the_post(); ?>
 							<div class="row entry-secondary-content">
+                                <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 								<div class="entry-important-wrapper">
 									<h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 								</div>
@@ -418,6 +431,7 @@
 					<?php query_posts('category_name=tecnology-small-size_2&posts_per_page=1' ); {
 						 while(have_posts()) : the_post(); ?>
 							<div class="row entry-secondary-content">
+                                <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 								<div class="entry-important-wrapper">
 									<h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 								</div>
@@ -436,6 +450,7 @@
 					<?php query_posts('category_name=tecnology-small-size_3&posts_per_page=1' ); {
 						 while(have_posts()) : the_post(); ?>
 							<div class="row entry-secondary-content">
+                                <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 								<div class="entry-important-wrapper">
 									<h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 								</div>
@@ -470,6 +485,7 @@
 					<?php query_posts('category_name=entretainment-big-size&posts_per_page=1' ); {
 						 while(have_posts()) : the_post(); ?>
 							<div class="row entry-important-content">
+                                <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 								<div class="entry-important-wrapper">
 									<h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 									<div class="d-none d-md-block"><?php the_excerpt(); ?></div>
@@ -490,6 +506,7 @@
 					<?php query_posts('category_name=entretainment-small-size_1&posts_per_page=1' ); {
 						 while(have_posts()) : the_post(); ?>
 							<div class="row entry-secondary-content">
+                                <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 								<div class="entry-important-wrapper">
 									<h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 								</div>
@@ -508,6 +525,7 @@
 					<?php query_posts('category_name=entretainment-small-size_2&posts_per_page=1' ); {
 						 while(have_posts()) : the_post(); ?>
 							<div class="row entry-secondary-content">
+                                <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 								<div class="entry-important-wrapper">
 									<h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 								</div>
@@ -526,6 +544,7 @@
 					<?php query_posts('category_name=entretainment-small-size_3&posts_per_page=1' ); {
 						 while(have_posts()) : the_post(); ?>
 							<div class="row entry-secondary-content">
+                                <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 								<div class="entry-important-wrapper">
 									<h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 								</div>
@@ -557,6 +576,7 @@
 				while ( have_posts() ) : the_post(); ?>
 							<article class="other-news col-md-4 col-xs-12">
 								<div class="row entry-secondary-content">
+                                    <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 									<div class="entry-important-wrapper">
 										<h5 class="col-xs-12 entry-important-title"><a style="color:white" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h5>
 									</div>
