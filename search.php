@@ -55,12 +55,15 @@ get_header();
 			</div>
 		</div>
 		<div class="row">
-			<span class="offset-sm-1 col-sm-5 date-category" id="datefield">05 de octubre 2018</span>
+			<span class="offset-sm-1 col-sm-5 date-category" id="datefield"></span>
 		</div>	
 		<div class="row">
-			<div class="section-title-content-center offset-sm-1 col-sm-5">
-				<h2 class="section-title"><span class="tiempo-font"></span>Resultados de búsqueda</h2>
-			</div>
+            <div class="col-md-6 category-content" id="category-content" style="margin-bottom: 6%;">
+                <div class="icon-content">
+                    <img src="<?php bloginfo('template_url');?>/img/icons/iconos-14.png" alt="">
+                </div>
+                <h2 class="category-title" id="category-title">Resultados</h2>
+            </div>
 
 
 			<div class="col-sm-6 social-row right-row">
@@ -79,7 +82,7 @@ get_header();
 		<div class="row">
 			<section class="news-container offset-sm-1 col-md-10">
 					<div class="row">
-
+                    <?php if(have_posts()):?>
 						<?php 
 							while(have_posts()) : the_post();
 						?>
@@ -102,7 +105,14 @@ get_header();
 
 
 						 <?php endwhile; ?>
+                    <?php else: ?>
+                    </div>
+                            <img class="centered-img" src="<?php  bloginfo('template_url'); ?>/img/icons/iconos-15.png" alt="">
+                        <div class="row">
+                            <h3 class="blue-letter">No se encontraron resultados</h3>
 
+                        </div>
+                    <?php endif; ?>
 					</div>
 			</section>
 		</div>

@@ -292,6 +292,21 @@ label{
   left:0.1em;
 }
 
+.centered-img{
+	height: auto;
+	width: auto;
+	display: block;
+	margin: 6% auto;
+}
+
+.blue-letter{
+	text-align: center;
+	width: 100%;
+	color: #00B5ED;
+	font-style: italic;
+	font-weight: bold;
+}
+
 .social-top-content{
 	margin-left: 45%;
 	text-align: right;
