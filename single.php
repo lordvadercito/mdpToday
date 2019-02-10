@@ -95,7 +95,7 @@ get_header();
 								}; ?>
 					</div>
 					<div class="row font-content">
-						<h5 class="font" id="font"><?php  get_author_icon(the_author());?></h5>
+						<h5 class="font" id="font"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></h5>
 					</div> 
 
 					<div class="text-content" id="text-content">
