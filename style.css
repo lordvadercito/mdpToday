@@ -308,8 +308,9 @@ label{
 }
 
 .social-top-content{
-	margin-left: 45%;
 	text-align: right;
+	float: right;
+	margin-right: 1%;
 }
 
 .material-icons{
@@ -380,6 +381,7 @@ label{
 
 .section-title-content.min-top{
 	margin: 0% 0 0% 3%;
+	display: inline-block;
 }
 
 .section-title{

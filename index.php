@@ -57,16 +57,16 @@
 			<h4 class="span-content-inner" id="datefield"></h4>
 		</div>
 		<div class="row initial d-none d-sm-block">
-			<div class="section-title-content min-top col-lg-4 col-md-12 col-sm-12" id="outstanding-news-title">
+			<div class="section-title-content min-top col-lg-4 col-md-6 col-sm-12" id="outstanding-news-title">
 				<img class="section-icon" src="<?php bloginfo('template_url'); ?>/img/icons/noticias-destacadas-w.png" alt="Noticias Destacadas">
 				<h2 class="section-title">Noticias Destacadas</h2>
 			</div>
-		<div class="social-top-content col-lg-2 d-md-none d-xs-none d-sm-none">
-			<a href="#" title="Dale Me Gusta a nuestra Fan Page de Facebook"><p class="social-icon top-social">F</p></a>
-			<a href="#" title="Seguinos en Twitter"><p class="social-icon top-social">T</p></a>
-			<a href="#" title="Sumate a nuestro Instagram"><p class="social-icon top-social">I</p></a>
-		</div>
-	</div>
+            <div class="social-top-content col-md-4 d-md-block d-xs-none d-sm-none">
+                <a href="#" title="Dale Me Gusta a nuestra Fan Page de Facebook"><p class="social-icon top-social">F</p></a>
+                <a href="#" title="Seguinos en Twitter"><p class="social-icon top-social">T</p></a>
+                <a href="#" title="Sumate a nuestro Instagram"><p class="social-icon top-social">I</p></a>
+            </div>
+	    </div>
 		<div class="row news-content">
 			<article class="col-lg-8 col-md-8 col-sm-12 article-content" id="principal-news-lg">
 
