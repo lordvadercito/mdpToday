@@ -84,6 +84,7 @@ p{
 .font-style-icon{
 	font-style: italic;
 	font-weight: lighter;
+	line-height: 35px;
 	font-family: 'Nunito';
 	color: #FFFFFF;
 	position: absolute;
@@ -572,6 +573,17 @@ a.atribution{
 	font-family: 'Nunito', sans-serif;
 	font-weight: 700;
 
+}
+
+.author-link{
+	color: #000000;
+	line-height: 35px;
+}
+
+.author-link:hover{
+	text-underline: none;
+	text-decoration: none;
+	color: #000000;
 }
 
 .forced-right{
