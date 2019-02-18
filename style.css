@@ -586,7 +586,7 @@ a.atribution{
 }
 
 .author-icon{
-	width: 35px;
+	width: 35px !important;
 }
 
 
