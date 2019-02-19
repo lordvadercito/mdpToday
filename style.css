@@ -891,7 +891,7 @@ footer .icon-type{
 						 "contacto redes"
 						 "autor autor";
 		grid-template-columns: 60% 30%;
-		grid-template-rows: 20% 20%;
+		grid-template-rows: 30% 20%;
 		grid-column-gap: 2%;
 		row-gap: 5ch;
 		padding: 5% 5% 5% 5%;

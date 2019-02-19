@@ -112,10 +112,10 @@ $(document).ready(function(){
 	
 	var dateShow = document.getElementById("datefield");
     var dateShowSmall = document.getElementById("dateFieldSmall");
-    var footerDate = document.getElementById("footerDate");
+    //var footerDate = document.getElementById("footerDate");
 	//dateShow.innerHTML = getDate();
     dateShowSmall.innerHTML = getDate();
-    footerDate.innerHTML = getDate();
+    //footerDate.innerHTML = getDate();
 
     function getDate(){
             var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
@@ -217,6 +217,7 @@ $(window).resize(function(){
 });
 
 function btnContent(size){
+    console.log("btnContent en ejecucion");
     if (size < 768){
         $('.btn-seemore').text("+");
     }else{

@@ -1,16 +1,16 @@
 <footer>
 	<div class="logo">
-		<img src="<?php bloginfo('template_url') ?>/img/logos/Original.png">
+        <a href="http://c1240192.ferozo.com/mdptoday/"><img src="<?php bloginfo('template_url') ?>/img/logos/Original.png"></a>
 	</div>
 
     <div class="foot">
-		<div class="info">
-			<h2>Dirección 123 MDP, BsAs. Argentina</h2>
-			<p>Editor responsable: <b>Nombre y Apellido</b></p>
-			<p>Registro de propiedad Intelectual: <b>12345</b></p>
-            <p>Edición N°: <b>12345</b></p>
-			<p>Fecha: <b><span id="footerDate"></span></b></p>
-		</div>
+<!--		<div class="info">-->
+<!--			<h2>Dirección 123 MDP, BsAs. Argentina</h2>-->
+<!--			<p>Editor responsable: <b>Nombre y Apellido</b></p>-->
+<!--			<p>Registro de propiedad Intelectual: <b>12345</b></p>-->
+<!--            <p>Edición N°: <b>12345</b></p>-->
+<!--			<p>Fecha: <b><span id="footerDate"></span></b></p>-->
+<!--		</div>-->
         
 		<div class="mapa">
         <h2>Mapa del Sitio</h2>
@@ -20,21 +20,21 @@
             <p><a href="http://c1240192.ferozo.com/mdptoday/category/tecnologia/">TECNOLOGÍA</a></p>
             <p><a href="http://c1240192.ferozo.com/mdptoday/category/entretenimiento/">ENTRETENIMIENTO</a></p>
 		</div>
-        
+        <br>
 		<div class="contacto">
         <h2>Contáctanos</h2>
 			<p><a href="mailto:contacto@mdptoday.com.ar">contacto@mdptoday.com.ar</a></p>
             <p><a href="mailto:comercial@mdptoday.com.ar">comercial@mdptoday.com.ar</a></p>
             <p><a href="mailto:soporte@mdptoday.com.ar">soporte@mdptoday.com.ar</a></p>
 		</div>
-        
+        <br>
         <div class="redes">
             <h2>Redes</h2>
 			<p><span class="social-icon-sm">f</span><a href="">/mdptoday</a></p>
 			<p><span class="social-icon-sm">t</span><a href="">/mdptoday</a></p>
 			<p><span class="social-icon-sm">i</span><a href="">/mdptoday</a></p>
 		</div>
-        
+        <br>
 		<div class="author">
 	        <h2>©2019 Mar Del Plata Today</h2>
 			<p><a href="">By MainGroup.co</a></p>

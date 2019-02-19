@@ -58,6 +58,7 @@ get_header();
 		</div>
 		<div class="row">
 			<span class="offset-sm-1 col-sm-5 date-category" id="datefield"></span>
+            <h4 class="span-content-inner d-none d-sm-none" id="dateFieldSmall"></h4>
 		</div>	
 		<div class="row">
 			<div class="section-title-content-center offset-sm-1 col-sm-5">
@@ -98,6 +99,7 @@ get_header();
 						?>
 
 							<article class="col-lg-4 col-sm-12 article-content news-bottom">
+                                <a class="label-sm" style="color: #000;" href="<?php echo get_permalink(); ?>">
                                 <p class="font-style-icon"><?php  get_author_icon(get_the_author_meta($field='display_name')); the_author();?></p>
 
 								<?php
@@ -105,13 +107,14 @@ get_header();
 										the_post_thumbnail('category-size');
 									endif;
 								?>
-								<h4 class="label-sm"><a class="label-sm" href="<?php echo get_permalink(); ?>">
+								<h4 class="label-sm" style="color: #00B5ED;">
 									<?php the_title(); ?>
-								</a></h4>
+								</h4>
 									<p class="content-sm">
 										<?php echo get_the_excerpt(); ?>
 										<a href="<?php echo get_permalink(); ?>" >Leer más</a>
 									</p>
+                                </a>
 							</article>
 
 
