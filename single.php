@@ -33,10 +33,10 @@ get_header();
                         <span class="max-min" id="min-temp">11&#176;</span>
                     </div>
                     <div class="medium-bar">
-                        <a href="#" title="Dale Me Gusta a nuestra Fan Page de Facebook"><p
+                        <a href="https://m.facebook.com/mdptoday/?ref=bookmarks" target="_blank" title="Dale Me Gusta a nuestra Fan Page de Facebook"><p
                                     class="social-icon top-social-mobile">F</p></a>
-                        <a href="#" title="Seguinos en Twitter"><p class="social-icon top-social-mobile">T</p></a>
-                        <a href="#" title="Sumate a nuestro Instagram"><p class="social-icon top-social-mobile">I</p>
+                        <a href="https://mobile.twitter.com/Mdptoday" target="_blank" title="Seguinos en Twitter"><p class="social-icon top-social-mobile">T</p></a>
+                        <a href="https://instagram.com/mdptoday?utm_source=ig_profile_share&igshid=11reex8ukkm8l" target="_blank" title="Sumate a nuestro Instagram"><p class="social-icon top-social-mobile">I</p>
                         </a>
                     </div>
                 </div>
@@ -90,9 +90,9 @@ get_header();
     </div>
     <div class="col-md-6 social-block" id="social-block">
         <div class="col-sm-12 social-row right-row">
-            <a href="#"><h2 class="social-icon blue">F</h2></a>
-            <a href="#"><h2 class="social-icon blue">I</h2></a>
-            <a href="#"><h2 class="social-icon blue">T</h2></a>
+            <a href="http://www.facebook.com/sharer.php?u=<?php echo get_permalink(); ?>" target="_blank"><h2 class="social-icon blue">F</h2></a>
+            <a href="" target="_blank"><h2 class="social-icon blue">I</h2></a>
+            <a href="http://twitter.com/home?status=<?php echo get_permalink(); ?>" target="_blank"><h2 class="social-icon blue">T</h2></a>
         </div>
     </div>
     </div>
