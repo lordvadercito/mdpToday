@@ -91,7 +91,7 @@ get_header();
     <div class="col-md-6 social-block" id="social-block">
         <div class="col-sm-12 social-row right-row">
             <a href="http://www.facebook.com/sharer.php?u=<?php echo get_permalink(); ?>" target="_blank"><h2 class="social-icon blue">F</h2></a>
-            <a href="" target="_blank"><h2 class="social-icon blue">I</h2></a>
+            <a href="whatsapp://send?text=<?php echo get_permalink();?>" target="_blank"><h2 class="social-icon blue">W</h2></a>
             <a href="http://twitter.com/home?status=<?php echo get_permalink(); ?>" target="_blank"><h2 class="social-icon blue">T</h2></a>
         </div>
     </div>

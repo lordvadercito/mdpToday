@@ -132,6 +132,7 @@ p{
 	font-size: 15px;
 	display: inline-flex;
 	transition: all 0.35s;
+	width: 100%;
 }
 
 .nav-link:hover{
