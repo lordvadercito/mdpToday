@@ -75,11 +75,11 @@ get_header();
     </div>
 </div>
 <div class="row">
-    <span class="offset-sm-1 col-sm-5 date-category" id="datefield"></span>
+    <span class="offset-md-1 col-sm-5 date-category" id="datefield"></span>
     <h4 class="span-content-inner d-none d-sm-none" id="dateFieldSmall"></h4>
 </div>
 <div class="row">
-    <div class="section-title-content-center offset-sm-1 col-sm-5">
+    <div class="section-title-content-center offset-md-1 col-sm-5">
         <?php if (is_category()) { ?>
             <h2 class="section-title"><?php single_cat_title() ?></h2>
         <?php } ?>
@@ -108,7 +108,7 @@ get_header();
 
 </div>
 <div class="row">
-    <section class="news-container offset-sm-1 col-md-10">
+    <section class="news-container offset-md-1 col-md-10">
         <div class="row">
 
             <?php
