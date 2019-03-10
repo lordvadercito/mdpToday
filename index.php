@@ -70,8 +70,13 @@ get_header();
     </nav>
 </header><!-- /header -->
 <div class="row sponsor-banner d-none d-md-block" style="margin: 90px 0 10px 0;">
-    <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/banners/publicidad-desktop.png"
-         alt="Publicidad">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-6107707177443194",
+            enable_page_level_ads: true
+        });
+    </script>
 </div>
 <section class="container" id="outstanding-news">
     <div class="row span-content d-none d-md-block">

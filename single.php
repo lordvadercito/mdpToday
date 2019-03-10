@@ -33,10 +33,14 @@ get_header();
                         <span class="max-min" id="min-temp">11&#176;</span>
                     </div>
                     <div class="medium-bar">
-                        <a href="https://m.facebook.com/mdptoday/?ref=bookmarks" target="_blank" title="Dale Me Gusta a nuestra Fan Page de Facebook"><p
+                        <a href="https://m.facebook.com/mdptoday/?ref=bookmarks" target="_blank"
+                           title="Dale Me Gusta a nuestra Fan Page de Facebook"><p
                                     class="social-icon top-social-mobile">F</p></a>
-                        <a href="https://mobile.twitter.com/Mdptoday" target="_blank" title="Seguinos en Twitter"><p class="social-icon top-social-mobile">T</p></a>
-                        <a href="https://instagram.com/mdptoday?utm_source=ig_profile_share&igshid=11reex8ukkm8l" target="_blank" title="Sumate a nuestro Instagram"><p class="social-icon top-social-mobile">I</p>
+                        <a href="https://mobile.twitter.com/Mdptoday" target="_blank" title="Seguinos en Twitter"><p
+                                    class="social-icon top-social-mobile">T</p></a>
+                        <a href="https://instagram.com/mdptoday?utm_source=ig_profile_share&igshid=11reex8ukkm8l"
+                           target="_blank" title="Sumate a nuestro Instagram"><p class="social-icon top-social-mobile">
+                                I</p>
                         </a>
                     </div>
                 </div>
@@ -80,19 +84,22 @@ get_header();
             get_cat_icon($the_categories);
             ?>
         </div>
-        <h2 class="category-title" id="category-title"><?php $categoria = get_the_category();
-            $parent = get_cat_name($categoria[0]->category_parent);
-            if (!empty($parent)) {
-                echo $parent;
-            } else {
-                echo $categoria[0]->cat_name;
-            } ?></h2>
+            <h2 class=" category-title" id="category-title"><?php $the_categories = get_the_category();
+        $parent = get_cat_name($the_categories[0]->category_parent);
+        if (!empty($parent)) {
+            echo $parent;
+        } else {
+            echo $the_categories[0]->cat_name;
+        } ?></h2>
     </div>
     <div class="col-md-6 social-block" id="social-block">
         <div class="col-sm-12 social-row right-row">
-            <a href="http://www.facebook.com/sharer.php?u=<?php echo get_permalink(); ?>" target="_blank"><h2 class="social-icon blue">F</h2></a>
-            <a href="whatsapp://send?text=<?php echo get_permalink();?>" target="_blank"><h2 class="social-icon blue">W</h2></a>
-            <a href="http://twitter.com/home?status=<?php echo get_permalink(); ?>" target="_blank"><h2 class="social-icon blue">T</h2></a>
+            <a href="http://www.facebook.com/sharer.php?u=<?php echo get_permalink(); ?>" target="_blank"><h2
+                        class="social-icon blue">F</h2></a>
+            <a href="whatsapp://send?text=<?php echo get_permalink(); ?>" target="_blank"><h2 class="social-icon blue">
+                    W</h2></a>
+            <a href="http://twitter.com/home?status=<?php echo get_permalink(); ?>" target="_blank"><h2
+                        class="social-icon blue">T</h2></a>
         </div>
     </div>
     </div>
@@ -128,7 +135,8 @@ get_header();
                 ?>
 
                 <h5 class="font" id="font"><a class="author-link"
-                            href="<?php echo $author_url; ?>"  target="_blank"><?php get_author_icon(get_the_author_meta($field = 'display_name'));
+                                              href="<?php echo $author_url; ?>"
+                                              target="_blank"><?php get_author_icon(get_the_author_meta($field = 'display_name'));
                         the_author(); ?></a></h5>
 
 

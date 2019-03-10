@@ -80,4 +80,7 @@ if(!function_exists('video_content_filter')) {
     // Aplicar a los widgets si se quiere
     add_filter( 'widget_text', 'video_content_filter' );
 }
+
+//Activar XML-RPC
+add_filter('xmlrpc_enabled', '__return_true');
 ?>
