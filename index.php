@@ -208,7 +208,7 @@ get_header();
             <img src="<?php bloginfo('template_url'); ?>/img/icons/noticias-w.png" alt="Noticias" class="section-icon">
             <h2 class="section-title">Noticias</h2>
         </div>
-        <a role="button" href="http://c1240192.ferozo.com/mdptoday/category/noticias/"
+        <a role="button" href="http://mdptoday.com.ar/category/noticias/"
            class="col-lg-1 col-md-3 col-sm-2 btn-seemore">Ver más</a>
     </div>
     <div class="social-top-content col-lg-2 d-md-none d-xs-none d-sm-none">
@@ -336,7 +336,7 @@ get_header();
             <img src="<?php bloginfo('template_url'); ?>/img/icons/deportes-w.png" alt="Deportes" class="section-icon">
             <h2 class="section-title">Deportes</h2>
         </div>
-        <a role="button" href="http://c1240192.ferozo.com/mdptoday/category/deportes/"
+        <a role="button" href="http://mdptoday.com.ar/category/deportes/"
            class="col-lg-1 col-md-3 col-sm-2 btn-seemore">Ver más</a>
     </div>
     <div class="social-top-content col-lg-2 d-md-none d-xs-none d-sm-none">
@@ -466,7 +466,7 @@ get_header();
                  class="section-icon">
             <h2 class="section-title">Tecnología</h2>
         </div>
-        <a role="button" href="http://c1240192.ferozo.com/mdptoday/category/tecnologia/"
+        <a role="button" href="http://mdptoday.com.ar/category/tecnologia/"
            class="col-lg-1 col-md-3 col-sm-2 btn-seemore">Ver más</a>
     </div>
     <div class="row news-content">
@@ -579,7 +579,7 @@ get_header();
                  class="section-icon">
             <h2 class="section-title">Entretenimiento</h2>
         </div>
-        <a role="button" href="http://c1240192.ferozo.com/mdptoday/category/entretenimiento/"
+        <a role="button" href="http://mdptoday.com.ar/category/entretenimiento/"
            class="col-lg-1 col-md-3 col-sm-2 btn-seemore">Ver más</a>
     </div>
     <div class="row news-content">

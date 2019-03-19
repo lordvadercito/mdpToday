@@ -3,7 +3,7 @@ get_header();
 ?>
 <header id="header" class="header-fixed-top">
 	<nav class="navbar navbar-expand-lg navbar-light bg-color-white">
-	  	<a class="navbar-brand" href="http://c1240192.ferozo.com/mdptoday/"><img class="img-logo" src="<?php bloginfo('template_url'); ?>/img/logos/logoslogan-08.png" alt="MDP Today"></a>
+	  	<a class="navbar-brand" href="http://mdptoday.com.ar/"><img class="img-logo" src="<?php bloginfo('template_url'); ?>/img/logos/logoslogan-08.png" alt="MDP Today"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border:none;">
 		    <span class="navbar-toggler-icon"></span>
 		</button>
@@ -31,19 +31,19 @@ get_header();
 				  	</div>
 				    <ul class="navbar-nav mr-auto">
 				     	<li class="nav-item active">
-				        	<a class="nav-link closeMenu" href="http://c1240192.ferozo.com/mdptoday/"><img src="<?php bloginfo('template_url'); ?>/img/icons/home-b.png" class="icon-btn">Home</a>
+				        	<a class="nav-link closeMenu" href="http://mdptoday.com.ar/"><img src="<?php bloginfo('template_url'); ?>/img/icons/home-b.png" class="icon-btn">Home</a>
 				      	</li>
 				      	<li class="nav-item">
 				        	<a class="nav-link closeMenu" href="#news"><img src="<?php bloginfo('template_url'); ?>/img/icons/noticias-b.png" class="icon-btn">Noticias</a>
 				      	</li>
 				      	<li class="nav-item">
-				        	<a class="nav-link closeMenu" href="http://c1240192.ferozo.com/mdptoday/category/deportes/"><img src="<?php bloginfo('template_url'); ?>/img/icons/deportes-b.png" class="icon-btn">Deportes</a>
+				        	<a class="nav-link closeMenu" href="http://mdptoday.com.ar/category/deportes/"><img src="<?php bloginfo('template_url'); ?>/img/icons/deportes-b.png" class="icon-btn">Deportes</a>
 				      	</li>
 				        <li class="nav-item">
-				        	<a class="nav-link closeMenu" href="http://c1240192.ferozo.com/mdptoday/category/tecnologia/"><img src="<?php bloginfo('template_url'); ?>/img/icons/tecnologia-b.png" class="icon-btn">Tecnología</a>
+				        	<a class="nav-link closeMenu" href="http://mdptoday.com.ar/category/tecnologia/"><img src="<?php bloginfo('template_url'); ?>/img/icons/tecnologia-b.png" class="icon-btn">Tecnología</a>
 				      	</li>
 				        <li class="nav-item">
-				        	<a class="nav-link closeMenu" href="http://c1240192.ferozo.com/mdptoday/category/entretenimiento/"><img src="<?php bloginfo('template_url'); ?>/img/icons/entretenimiento-b.png" class="icon-btn">Entretenimiento</a>
+				        	<a class="nav-link closeMenu" href="http://mdptoday.com.ar/category/entretenimiento/"><img src="<?php bloginfo('template_url'); ?>/img/icons/entretenimiento-b.png" class="icon-btn">Entretenimiento</a>
 				      	</li>
 				    </ul>
 			  	</div>

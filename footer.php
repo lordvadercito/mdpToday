@@ -1,6 +1,6 @@
 <footer>
     <div class="logo">
-        <a href="http://c1240192.ferozo.com/mdptoday/"><img
+        <a href="http://mdptoday.com.ar/"><img
                     src="<?php bloginfo('template_url') ?>/img/logos/Original.png"></a>
     </div>
 
@@ -15,11 +15,11 @@
 
         <div class="mapa">
             <h2>Mapa del Sitio</h2>
-            <p><a href="http://c1240192.ferozo.com/mdptoday/">HOME</a></p>
-            <p><a href="http://c1240192.ferozo.com/mdptoday/category/noticias/">NOTICIAS</a></p>
-            <p><a href="http://c1240192.ferozo.com/mdptoday/category/deportes/">DEPORTES</a></p>
-            <p><a href="http://c1240192.ferozo.com/mdptoday/category/tecnologia/">TECNOLOGÍA</a></p>
-            <p><a href="http://c1240192.ferozo.com/mdptoday/category/entretenimiento/">ENTRETENIMIENTO</a></p>
+            <p><a href="http://mdptoday.com.ar/">HOME</a></p>
+            <p><a href="http://mdptoday.com.ar/category/noticias/">NOTICIAS</a></p>
+            <p><a href="http://mdptoday.com.ar/category/deportes/">DEPORTES</a></p>
+            <p><a href="http://mdptoday.com.ar/category/tecnologia/">TECNOLOGÍA</a></p>
+            <p><a href="http://mdptoday.com.ar/category/entretenimiento/">ENTRETENIMIENTO</a></p>
         </div>
         <br>
         <div class="contacto">

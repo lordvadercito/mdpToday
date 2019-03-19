@@ -5,7 +5,7 @@ get_header();
 
     <header id="header" class="header-fixed-top">
         <nav class="navbar navbar-expand-lg navbar-light bg-color-white">
-            <a class="navbar-brand" href="http://c1240192.ferozo.com/mdptoday/"><img class="img-logo"
+            <a class="navbar-brand" href="http://mdptoday.com.ar/"><img class="img-logo"
                                                                                      src="<?php bloginfo('template_url'); ?>/img/logos/logoslogan-08.png"
                                                                                      alt="MDP Today"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -46,26 +46,26 @@ get_header();
                 </div>
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link closeMenu" href="http://c1240192.ferozo.com/mdptoday/"><img
+                        <a class="nav-link closeMenu" href="http://mdptoday.com.ar/"><img
                                     src="<?php bloginfo('template_url'); ?>/img/icons/home-b.png" class="icon-btn">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link closeMenu" href="http://c1240192.ferozo.com/mdptoday/category/noticias/"><img
+                        <a class="nav-link closeMenu" href="http://mdptoday.com.ar/category/noticias/"><img
                                     src="<?php bloginfo('template_url'); ?>/img/icons/noticias-b.png" class="icon-btn">Noticias</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link closeMenu" href="http://c1240192.ferozo.com/mdptoday/category/deportes/"><img
+                        <a class="nav-link closeMenu" href="http://mdptoday.com.ar/category/deportes/"><img
                                     src="<?php bloginfo('template_url'); ?>/img/icons/deportes-b.png" class="icon-btn">Deportes</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link closeMenu"
-                           href="http://c1240192.ferozo.com/mdptoday/category/tecnologia/"><img
+                           href="http://mdptoday.com.ar/category/tecnologia/"><img
                                     src="<?php bloginfo('template_url'); ?>/img/icons/tecnologia-b.png"
                                     class="icon-btn">Tecnología</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link closeMenu"
-                           href="http://c1240192.ferozo.com/mdptoday/category/entretenimiento/"><img
+                           href="http://mdptoday.com.ar/category/entretenimiento/"><img
                                     src="<?php bloginfo('template_url'); ?>/img/icons/entretenimiento-b.png"
                                     class="icon-btn">Entretenimiento</a>
                     </li>

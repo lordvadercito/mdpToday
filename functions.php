@@ -40,13 +40,13 @@ function get_cat_icon($las_categorias)
     foreach ($las_categorias as $category) {
 
         if ($category->cat_name == 'Tecnologia') {
-            echo "<img class='category-icon' src='http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/icons/tecnologia-b.png'/>";
+            echo "<img class='category-icon' src='http://mdptoday.com.ar/wp-content/themes/mdptoday/img/icons/tecnologia-b.png'/>";
         } elseif ($category->cat_name == 'Deportes') {
-            echo "<img class='category-icon' src='http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/icons/deportes-b.png'/>";
+            echo "<img class='category-icon' src='http://mdptoday.com.ar/wp-content/themes/mdptoday/img/icons/deportes-b.png'/>";
         } elseif ($category->cat_name == 'Entretenimiento') {
-            echo "<img class='category-icon' src='http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/icons/entretenimiento-b.png'/>";
+            echo "<img class='category-icon' src='http://mdptoday.com.ar/wp-content/themes/mdptoday/img/icons/entretenimiento-b.png'/>";
         }elseif ($category->cat_name == 'Noticias'){
-            echo "<img class='category-icon' src='http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/icons/noticias-b.png'/>";
+            echo "<img class='category-icon' src='http://mdptoday.com.ar/wp-content/themes/mdptoday/img/icons/noticias-b.png'/>";
         }
 
     }
@@ -54,7 +54,7 @@ function get_cat_icon($las_categorias)
 
 //Change author icon
 function get_author_icon($author){
-    echo "<img class='author-icon' src='http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/author/".$author.".png'>&nbsp;";
+    echo "<img class='author-icon' src='http://mdptoday.com.ar/wp-content/themes/mdptoday/img/author/".$author.".png'>&nbsp;";
 }
 
 // Videos responsive autómaticos
