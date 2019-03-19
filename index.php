@@ -684,7 +684,7 @@ get_header();
     <div class="row news-content">
         <div class="section-title-content min-top col-lg-12 col-md-12 col-sm-12 borderless">
             <img src="<?php bloginfo('template_url'); ?>/img/icons/noticias-w.png" alt="Noticias" class="section-icon">
-            <h2 class="section-title">Más noticias</h2>
+            <h2 class="section-title">Línea de tiempo</h2>
         </div>
         <!-- <a role="button" type="button" href="" class="col-lg-1 col-md-3 col-sm-2 btn btn-seemore">Ver más</a>	 -->
     </div>
