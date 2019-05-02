@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 	$.ajax({
     // la URL para la petición
-    url : 'http://dataservice.accuweather.com/currentconditions/v1/7893?apikey=nperqMePULASOq3yg594AZvSGib1OHdi%20&language=es-ar&details=true',
+    url : 'https://dataservice.accuweather.com/currentconditions/v1/7893?apikey=nperqMePULASOq3yg594AZvSGib1OHdi%20&language=es-ar&details=true',
  
     // la información a enviar
     // (también es posible utilizar una cadena de datos)
@@ -46,51 +46,51 @@ $(document).ready(function(){
 function weatherIconSelec(icon){
     switch(icon) {
     case 1:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/sun-w.png", "alt":"Soleado"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/sun-w.png", "alt":"Soleado"});
         break;
     case 2:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/cloud-w.png", "alt":"Parcialmente nublado"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/cloud-w.png", "alt":"Parcialmente nublado"});
         break;
     case 3:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/cloud-w.png", "alt":"Parcialmente nublado"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/cloud-w.png", "alt":"Parcialmente nublado"});
     case 4:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/cloud-w.png", "alt":"Parcialmente nublado"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/cloud-w.png", "alt":"Parcialmente nublado"});
     case 5:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/cloud-w.png", "alt":"Parcialmente nublado"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/cloud-w.png", "alt":"Parcialmente nublado"});
     case 6:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/cloud-w.png", "alt":"Nublado"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/cloud-w.png", "alt":"Nublado"});
     case 7:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/cloud-w.png", "alt":"Nublado"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/cloud-w.png", "alt":"Nublado"});
     case 8:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/cloud-w.png", "alt":"Nublado"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/cloud-w.png", "alt":"Nublado"});
     case 11:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/cloud-w.png", "alt":"Nublado"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/cloud-w.png", "alt":"Nublado"});
     case 12:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/rain-w.png", "alt":"Lluvia"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/rain-w.png", "alt":"Lluvia"});
     case 13:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/rain-w.png", "alt":"Lluvia"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/rain-w.png", "alt":"Lluvia"});
     case 14:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/rain-w.png", "alt":"Lluvia"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/rain-w.png", "alt":"Lluvia"});
     case 15:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/storm-w.png", "alt":"Tormenta eléctrica"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/storm-w.png", "alt":"Tormenta eléctrica"});
     case 16:
-         $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/storm-w.png", "alt":"Tormenta eléctrica"});
+         $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/storm-w.png", "alt":"Tormenta eléctrica"});
     case 17:
-         $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/storm-w.png", "alt":"Tormenta eléctrica"});
+         $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/storm-w.png", "alt":"Tormenta eléctrica"});
     case 18:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/rain-w.png", "alt":"Lluvia"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/rain-w.png", "alt":"Lluvia"});
     case 33:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/moon-w.png", "alt":"Noche despejada"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/moon-w.png", "alt":"Noche despejada"});
     case 34:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/moon-w.png", "alt":"Noche despejada"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/moon-w.png", "alt":"Noche despejada"});
     case 35:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/cloud-night-w.png", "alt":"Noche nublada"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/cloud-night-w.png", "alt":"Noche nublada"});
     case 36:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/cloud-night-w.png", "alt":"Noche nublada"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/cloud-night-w.png", "alt":"Noche nublada"});
     case 37:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/cloud-night-w.png", "alt":"Noche nublada"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/cloud-night-w.png", "alt":"Noche nublada"});
     case 38:
-        $('#weather-icon').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/weather/cloud-night-w.png", "alt":"Noche nublada"});
+        $('#weather-icon').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/weather/cloud-night-w.png", "alt":"Noche nublada"});
     
     }
     
@@ -101,7 +101,7 @@ $(document).ready(function(){
     var alto = $(window).height();
     console.log("Alto de ventana: " + alto + "px, Ancho: " + ancho + "px");
     if (sizeDetection()<1191) {
-        $('.img-logo').attr({"src":"http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/logos/logo-35.png", "margin":"0 10%"});
+        $('.img-logo').attr({"src":"https://mdptoday.com.ar/wp-content/themes/mdptoday/img/logos/logo-35.png", "margin":"0 10%"});
     }
 
     
@@ -130,7 +130,7 @@ $(document).on("scroll", function() {
 	if($(document).scrollTop()>100) {
 		$('.weather-btn').css({ "height": "61px"});
 		$('#navbarSupportedContent').css({"right":"28%","bottom":"17%"});
-		$('.img-logo').attr("src","http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/logos/logo-35.png");
+		$('.img-logo').attr("src","https://mdptoday.com.ar/wp-content/themes/mdptoday/img/logos/logo-35.png");
 		$('.img-logo').css({"height":"35px","margin":"0% 10%"});
 
         $('#header').css({"height":"auto"});
@@ -142,7 +142,7 @@ $(document).on("scroll", function() {
         
 
         if (sizeDetection() < 992) {
-            $('.img-logo').attr("src","http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/logos/logo-35.png");
+            $('.img-logo').attr("src","https://mdptoday.com.ar/wp-content/themes/mdptoday/img/logos/logo-35.png");
         }else if(($(window).width() > 544)&&($(window).width() < 768)){
             $('.img-logo').css({"height":"40px","margin":"0 10%"});
         }else if(($(window).width() > 768)&&($(window).width() <= 992)){
@@ -150,7 +150,7 @@ $(document).on("scroll", function() {
         }else{
     		$('.weather-btn').css({ "height": "45px"});
     		$('#navbarSupportedContent').css({"right":"12%","bottom":"1%"});
-    		$('.img-logo').attr("src","http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/logos/logoslogan-08.png");
+    		$('.img-logo').attr("src","https://mdptoday.com.ar/wp-content/themes/mdptoday/img/logos/logoslogan-08.png");
     		$('.img-logo').css({"height":"60px"});
             $('#container').css({"height":"45px"});
             $('.material-icons').css({"line-height":"45px"});
@@ -165,7 +165,7 @@ $(document).ready(function(){
     if (sizeDetection()< 992) { //estaba en 544
        $('#container').css({"height":"61px"});
        $('.material-icons').css({"line-height":"61px"});
-       $('.img-logo').attr("src","http://c1240192.ferozo.com/mdptoday/wp-content/themes/mdptoday/img/logos/logo-35.png");
+       $('.img-logo').attr("src","https://mdptoday.com.ar/wp-content/themes/mdptoday/img/logos/logo-35.png");
        classRemover($('#outstanding-news'));
        classRemover($('#news'));
        classRemover($('#sports'));

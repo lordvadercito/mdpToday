@@ -98,8 +98,9 @@ get_header();
                         class="social-icon blue">F</h2></a>
             <a href="whatsapp://send?text=<?php echo get_permalink(); ?>" target="_blank"><h2 class="social-icon blue">
                     W</h2></a>
-            <a href="http://twitter.com/home?status=<?php echo get_permalink(); ?>" target="_blank"><h2
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" target="_blank"><h2
                         class="social-icon blue">T</h2></a>
+<!--            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
         </div>
     </div>
     </div>
